@@ -1,0 +1,88 @@
+  p {
+    color: hsl(0, 0%, 100%, 0.75);
+    padding: 0px 50px;
+    position: relative;
+    bottom: 60px;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+
+  h1 {
+    color: white;
+    font-weight: bold;
+    padding: 0px 50px;
+    padding-bottom: 20px;
+    bottom: 100px;
+    position: relative;
+    font-family: 'Big Shoulders Display', cursive;
+  }
+
+  img {
+    padding: 0px 50px;
+    position: relative;
+    margin-bottom: 1.875em;
+    bottom: 6.25em;
+  }
+
+  .sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .suv {
+    background-color: hsl(184, 100%, 22%);
+  }
+
+  .luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  .row {
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+
+  .col {
+    padding: 170px 300px;
+  }
+
+  .butonlar {
+    margin-top: 60px;
+    position: absolute;
+    margin-left: 50px;
+    background-color: white;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 70px;
+  }
+
+  .sedan .butonlar {
+    color: hsl(31, 77%, 52%);
+  }
+
+  .suv .butonlar {
+    color: hsl(184, 100%, 22%);
+  }
+
+  .luxury .butonlar {
+    color: hsl(179, 100%, 13%);
+  }
+
+.sedan .butonlar:hover{
+  background-color: hsl(31, 77%, 52%);
+  color:white;
+  border: 1px white solid;
+}
+.suv .butonlar:hover{
+  background-color: hsl(184, 100%, 22%);
+  color:white;
+  border: 1px white solid;
+}
+.luxury .butonlar:hover{
+  background-color: hsl(179, 100%, 13%);
+  color:white;
+  border: 1px white solid;
+}
